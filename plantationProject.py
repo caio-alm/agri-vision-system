@@ -37,7 +37,7 @@ while True:
 
     stack_resized = cv2.resize(stack, (0, 0), fx=0.4, fy=0.4)
 
-    cv2.imshow("Processamento Agro 4.0", stack_resized)
+    cv2.imshow("Results", stack_resized)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
