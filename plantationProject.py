@@ -6,7 +6,7 @@ def none(x):
     pass
 
 
-imagePlants = cv2.imread('data/imagemPlant.jpg')
+imagePlants = cv2.imread('data/imagePlant.jpg')
 imagePlantsHsv = cv2.cvtColor(imagePlants, cv2.COLOR_BGR2HSV)
 
 cv2.namedWindow('Calibrate')
